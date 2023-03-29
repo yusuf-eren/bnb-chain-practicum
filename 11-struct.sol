@@ -18,6 +18,9 @@ contract Structs {
     // We are declaring an array formed of User struct.
     User[] public users;
 
+
+    // In this function we used 3 different usages of the structs.
+    // You can declare any kind of the method but the second one is preferred
     function doOperations() external {
         User memory user1 = User("Yusuf", 20, msg.sender);
 
